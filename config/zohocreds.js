@@ -3,7 +3,10 @@ const dotnev = require("dotenv")
 dotnev.config()
 
 
-console.log("test:",process.env.ZOHO_CLIENT_ID)
+console.log("Id:",process.env.ZOHO_CLIENT_ID)
+console.log("secret:",process.env.ZOHO_CLIENT_SECRET)
+console.log("token:",process.env.ZOHO_REFRESH_TOKEN)
+console.log("test:",process.env.ZOHO_ACCOUNTS_URL)
 
 module.exports = {
     ZOHO_CLIENT_ID: process.env.ZOHO_CLIENT_ID,
