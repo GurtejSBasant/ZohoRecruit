@@ -6,7 +6,7 @@ const jobRoutes = require('./routes/jobpostroutes');
 app.use(express.json());
 app.use('/zoho', jobRoutes);
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8002;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
