@@ -10,7 +10,7 @@ const allowedOrigins = [
     'https://newadmin.sourcebae.com',
     'https://sourcebae.com',
     'https://sourcebaeadmin.shethink.in',
-    "https://sourcebaelead.netlify.app/"
+    "http://localhost:3000"
 ];
 
 // CORS options
